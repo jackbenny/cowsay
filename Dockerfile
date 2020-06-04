@@ -4,5 +4,6 @@ RUN apt-get update && apt-get -y install \
     procps \ 
     iputils-ping \
     dnsutils \
+    curl \
     && apt-get clean
 CMD ["/usr/games/cowsay", "Hej alla! Docker fungerar!"]
